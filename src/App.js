@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './navbar'
 
-function App() {
+const App = () => {
   return (
-    <>
-    <h1> Viraj Chavda</h1>
-    <div>
-
-    <h2> i am CSE Student</h2>
-    </div>
-    </>
-  );
+  <>
+   <Navbar/>  
+   </>
+   )
 }
 
-export default App;
+export default App
